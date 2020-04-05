@@ -44,7 +44,7 @@ class CustomField {
 	}
 	
 	public function setDateValue($_val){
-		$this->value = date('d/m/Y',strtotime($_val));;
+		$this->value = date('m/d/Y',strtotime($_val));;
 	}
 	
 }
